@@ -1,0 +1,182 @@
+@use "./extends";
+@use "./variables";
+@use "./mixins";
+
+//HERO DE LA PAGINA//
+
+.hero .btn{
+    @extend %boton-base;
+    background:variables.$color-principal;
+    border:none;
+    padding:16px 34px;
+    font-size:1.1rem;
+    border-radius:12px;
+}
+
+.hero .btn:hover{
+    background-color: variables.$color-principal-hover;
+}
+
+.hero{
+    min-height:85vh;
+    padding:100px 0;
+    background:linear-gradient(
+        180deg,
+        #000000 0%,
+        #0b0b0b 100%
+    );
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:800;
+    line-height:1.15;
+    color:variables.$color-blanco;
+}
+
+.hero img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
+    transition: transform .3s ease;
+}
+
+.hero img:hover {
+    transform: scale(1.03);
+}
+
+.hero .row {
+    align-items: center;
+}
+
+.hero .col-lg-6:first-child {
+    padding-right: 40px;
+}
+
+.hero p{
+    font-size:1.2rem;
+    line-height:1.9;
+    color:variables.$color-gris;
+    max-width:520px;
+    margin:35px 0;
+}
+
+//PRODUCTOS DESTACADOS//
+
+.productos-destacados {
+    padding: 80px 0;
+}
+
+.productos-destacados h2 {
+    color: variables.$color-blanco;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.productos-destacados .card{
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: variables.$color-blanco;
+    box-shadow: variables.$sombra-suave;
+    transition: all .35s ease;
+    height: 100%;
+}
+
+.productos-destacados .card-title{
+    font-size:1.5rem;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.productos-destacados .card-text{
+    color:#555;
+    line-height:1.7;
+}
+
+.productos-destacados .card:hover{
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 22px 45px rgba(0,0,0,.40);
+}
+
+.productos-destacados .card img{
+    width:100%;
+    height:310px;
+    object-fit:contain;
+    background-color:white;
+    padding:20px;
+    transition: .4s ease;
+}
+
+.productos-destacados .card:hover img{
+    transform: scale(1.06);
+}
+
+.productos-destacados .btn{
+    background-color: variables.$color-principal;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition:.3s ease;
+}
+
+.productos-destacados .btn:hover{
+    transform: translateY(-3px);
+    background-color: #009fd6;
+}
+
+.productos-destacados .card{
+    background: #ffffff;
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    transition: .35s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,.25);
+
+}
+
+.productos-destacados .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 18px 35px rgba(0,0,0,.35);
+}
+
+.productos-destacados .card img{
+    height:260px;
+    object-fit:contain;
+    padding:20px;
+}
+
+.productos-destacados .card-body{
+    display:flex;
+    flex-direction:column;
+}
+
+.productos-destacados .btn{
+    margin-top:auto;
+}
+
+.beneficios {
+    padding: 80px 0;
+}
+
+.beneficios h2 {
+    color: variables.$color-blanco;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.beneficios h3 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.beneficios h4 {
+    color: variables.$color-principal;
+    margin-bottom: 15px;
+}
+
+.beneficios p {
+    color: variables.$color-blanco;
+    opacity: .8;
+}

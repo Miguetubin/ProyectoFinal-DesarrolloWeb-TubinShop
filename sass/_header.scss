@@ -3,7 +3,8 @@
 
 .header-principal {
     background-color: variables.$color-fondo;
-    
+    padding: 15px 0;
+    box-shadow: variables.$sombra-suave;
 }
 
 
@@ -18,4 +19,35 @@
 nav ul {
     @include mixins.flex-center;
     gap: 40px;
+}
+
+.header-principal .nav-link {
+    color: variables.$color-blanco;
+    font-weight: 500;
+    transition: color .3s ease;
+}
+
+.header-principal .nav-link:hover {
+    color: variables.$color-principal;
+}
+.header-principal .nav-link.active {
+    color: variables.$color-principal;
+}
+.header-principal .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: variables.$color-blanco;
+    transition: color .3s ease;
+}
+
+.header-principal .navbar-brand span {
+    color: variables.$color-principal;
+}
+
+.header-principal .navbar-brand:hover {
+    color: variables.$color-blanco;
+}
+
+.header-principal .navbar-brand:hover span {
+    color: variables.$color-principal-hover;
 }
