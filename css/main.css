@@ -2,6 +2,10 @@ body {
   background-color: black;
 }
 
+.header-principal {
+  background-color: #1A1A1A;
+}
+
 .header-titulo {
   color: tomato;
   font-size: 22px;
@@ -10,10 +14,10 @@ body {
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 25px;
   justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

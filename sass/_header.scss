@@ -1,0 +1,21 @@
+@use "./variables";
+@use "mixins" ;
+
+.header-principal {
+    background-color: variables.$color-fondo;
+    
+}
+
+
+
+.header-titulo{
+    color: tomato;
+    font-size: 22px;
+    text-align: center;
+    background-color: brown;
+}
+
+nav ul {
+    @include mixins.flex-center;
+    gap: 40px;
+}
