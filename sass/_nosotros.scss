@@ -1,0 +1,167 @@
+@use "./variables";
+
+.hero-nosotros{
+    background:variables.$color-fondo;
+    padding:120px 20px;
+    text-align:center;
+}
+
+.hero-nosotros h1{
+    color:variables.$color-blanco;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-nosotros p{
+    color:variables.$color-gris;
+    max-width:800px;
+    margin:25px auto 0;
+    line-height:1.8;
+}
+
+.historia{
+    background:variables.$color-fondo-secundario;
+    padding:100px 0;
+}
+
+.historia h2{
+    color:variables.$color-blanco;
+    margin-bottom:25px;
+}
+
+.historia p{
+    color:variables.$color-gris;
+    line-height:1.9;
+}
+
+.historia img{
+    border-radius:20px;
+    box-shadow:0 15px 35px rgba(0,0,0,.30);
+}
+
+.valores{
+    background:variables.$color-fondo;
+    padding:100px 0;
+}
+
+.valores h2{
+    color:variables.$color-blanco;
+    text-align:center;
+    margin-bottom:60px;
+    font-size:2.5rem;
+}
+
+.valor-card{
+    background:variables.$color-fondo-secundario;
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    height:100%;
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.valor-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.40);
+}
+
+.icono{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+.valor-card h3{
+    color:variables.$color-blanco;
+    margin-bottom:15px;
+}
+
+.valor-card p{
+    color:variables.$color-gris;
+    line-height:1.8;
+}
+
+.resenas{
+    background:variables.$color-fondo-secundario;
+    padding:100px 0;
+}
+
+.resenas h2{
+    color:variables.$color-blanco;
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:15px;
+}
+
+.resenas .subtitulo{
+    color:variables.$color-gris;
+    text-align:center;
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.resena-card{
+    background:variables.$color-fondo;
+    border-radius:18px;
+    padding:35px;
+    height:100%;
+    transition:.35s;
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.resena-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 20px 40px rgba(0,0,0,.40);
+}
+
+.estrellas{
+    display:block;
+    color:#FFD700;
+    font-size:1.3rem;
+    margin-bottom:20px;
+    letter-spacing:2px;
+}
+
+.resena-card p{
+    color:variables.$color-gris;
+    line-height:1.8;
+    font-style:italic;
+}
+
+.resena-card h4{
+    color:variables.$color-blanco;
+    margin-top:25px;
+    font-size:1.05rem;
+    font-weight:600;
+}
+
+.cta-nosotros{
+    background:variables.$color-fondo;
+    padding:100px 20px;
+    text-align:center;
+}
+
+.cta-nosotros h2{
+    color:variables.$color-blanco;
+    font-size:2.6rem;
+    margin-bottom:20px;
+}
+
+.cta-nosotros p{
+    color:variables.$color-gris;
+    max-width:700px;
+    margin:0 auto 35px;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+.cta-nosotros .btn{
+    padding:15px 40px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-nosotros .btn:hover{
+    transform:translateY(-3px);
+}

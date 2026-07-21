@@ -232,6 +232,74 @@ nav ul {
   opacity: 0.8;
 }
 
+/* ===========================
+        TABLET
+=========================== */
+@media (max-width: 992px) {
+  .hero {
+    text-align: center;
+  }
+  .hero .row {
+    flex-direction: column-reverse;
+  }
+  .hero img {
+    max-width: 380px;
+    margin-bottom: 40px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero p {
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+}
+/* ===========================
+        CELULAR
+=========================== */
+@media (max-width: 768px) {
+  .hero {
+    padding: 60px 20px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .hero img {
+    max-width: 100%;
+  }
+  .productos-destacados {
+    padding: 60px 20px;
+  }
+  .productos-destacados h2 {
+    font-size: 2rem;
+  }
+  .productos-destacados .card {
+    margin-bottom: 20px;
+  }
+  .beneficios {
+    padding: 60px 20px;
+  }
+  .beneficios h2 {
+    font-size: 2rem;
+  }
+  .beneficios .col-md-4 {
+    margin-bottom: 40px;
+  }
+  .footer {
+    text-align: center;
+  }
+  .footer ul {
+    margin-bottom: 30px;
+  }
+  .footer h3 {
+    margin-bottom: 20px;
+  }
+}
 .footer {
   background: #111;
   padding: 70px 0 25px;
@@ -285,6 +353,328 @@ nav ul {
   text-align: center;
   margin: 0;
   color: #888;
+}
+
+.hero-marcas {
+  background: #111;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-marcas h1 {
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-marcas p {
+  color: #cfcfcf;
+  max-width: 700px;
+  margin: 25px auto 0;
+  line-height: 1.8;
+}
+
+.lista-marcas {
+  background: #151515;
+  padding: 100px 0;
+}
+
+.lista-marcas h2 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+}
+
+.marca-card {
+  background: #111;
+  border-radius: 18px;
+  padding: 40px;
+  text-align: center;
+  transition: 0.35s;
+}
+
+.marca-card:hover {
+  transform: translateY(-10px);
+}
+
+.marca-card img {
+  height: 90px;
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+
+.marca-card h3 {
+  color: #FFFFFF;
+}
+
+.cta-marcas {
+  background: #1A1A1A;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cta-marcas h2 {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.cta-marcas p {
+  max-width: 700px;
+  margin: 0 auto 35px;
+  color: #B0B0B0;
+  font-size: 1.1rem;
+}
+
+.cta-marcas .btn {
+  padding: 15px 40px;
+  font-weight: 600;
+  border-radius: 12px;
+}
+
+.catalogo {
+  background: #1A1A1A;
+  padding: 100px 0;
+}
+
+.catalogo .card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.catalogo .card:hover {
+  transform: translateY(-10px);
+}
+
+.catalogo .card-img-top {
+  height: 280px;
+  object-fit: contain;
+  padding: 25px;
+}
+
+.catalogo .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.catalogo .btn {
+  margin-top: auto;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: #00B4D8;
+  padding: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.catalogo .btn:hover {
+  transform: scale(1.03);
+}
+
+.rating {
+  color: #ffc107;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.precio {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #00B4D8;
+  margin: 20px 0;
+}
+
+.catalogo h2 {
+  color: #FFFFFF;
+}
+
+.catalogo p {
+  color: #cfcfcf;
+}
+
+.hero-suplementos {
+  background: #1A1A1A;
+  padding: 100px 0 70px;
+  text-align: center;
+}
+
+.hero-suplementos h1 {
+  color: #FFFFFF;
+}
+
+.hero-suplementos p {
+  color: #B0B0B0;
+}
+
+.hero-nosotros {
+  background: #1A1A1A;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.hero-nosotros h1 {
+  color: #FFFFFF;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-nosotros p {
+  color: #B0B0B0;
+  max-width: 800px;
+  margin: 25px auto 0;
+  line-height: 1.8;
+}
+
+.historia {
+  background: #151515;
+  padding: 100px 0;
+}
+
+.historia h2 {
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+
+.historia p {
+  color: #B0B0B0;
+  line-height: 1.9;
+}
+
+.historia img {
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.valores {
+  background: #1A1A1A;
+  padding: 100px 0;
+}
+
+.valores h2 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 2.5rem;
+}
+
+.valor-card {
+  background: #151515;
+  border-radius: 18px;
+  padding: 35px;
+  text-align: center;
+  height: 100%;
+  transition: 0.35s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.valor-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.icono {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.valor-card h3 {
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.valor-card p {
+  color: #B0B0B0;
+  line-height: 1.8;
+}
+
+.resenas {
+  background: #151515;
+  padding: 100px 0;
+}
+
+.resenas h2 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.resenas .subtitulo {
+  color: #B0B0B0;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+.resena-card {
+  background: #1A1A1A;
+  border-radius: 18px;
+  padding: 35px;
+  height: 100%;
+  transition: 0.35s;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+.resena-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.estrellas {
+  display: block;
+  color: #FFD700;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+
+.resena-card p {
+  color: #B0B0B0;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+.resena-card h4 {
+  color: #FFFFFF;
+  margin-top: 25px;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.cta-nosotros {
+  background: #1A1A1A;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.cta-nosotros h2 {
+  color: #FFFFFF;
+  font-size: 2.6rem;
+  margin-bottom: 20px;
+}
+
+.cta-nosotros p {
+  color: #B0B0B0;
+  max-width: 700px;
+  margin: 0 auto 35px;
+  line-height: 1.8;
+  font-size: 1.1rem;
+}
+
+.cta-nosotros .btn {
+  padding: 15px 40px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.cta-nosotros .btn:hover {
+  transform: translateY(-3px);
 }
 
 /*# sourceMappingURL=main.css.map */

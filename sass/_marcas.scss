@@ -1,0 +1,81 @@
+@use "./variables";
+@use "./extends";
+@use "./mixins";
+
+.hero-marcas{
+    background:#111;
+    padding:120px 20px;
+    text-align:center;
+}
+
+.hero-marcas h1{
+    color:variables.$color-blanco;
+    font-size:3rem;
+    font-weight:700;
+}
+
+.hero-marcas p{
+    color:#cfcfcf;
+    max-width:700px;
+    margin:25px auto 0;
+    line-height:1.8;
+}
+
+.lista-marcas{
+    background:variables.$color-fondo-secundario;
+    padding:100px 0;
+}
+
+.lista-marcas h2{
+    color:variables.$color-blanco;
+    text-align:center;
+    margin-bottom:60px;
+    font-size:2.5rem;
+}
+
+.marca-card{
+    background:#111;
+    border-radius:18px;
+    padding:40px;
+    text-align:center;
+    transition:.35s;
+}
+
+.marca-card:hover{
+    transform:translateY(-10px);
+}
+
+.marca-card img{
+    height:90px;
+    object-fit:contain;
+    margin-bottom:25px;
+}
+
+.marca-card h3{
+    color:variables.$color-blanco;
+}
+
+.cta-marcas{
+    background:variables.$color-fondo;
+    padding:100px 0;
+    text-align:center;
+}
+
+.cta-marcas h2{
+    color:variables.$color-blanco;
+    font-size:2.4rem;
+    margin-bottom:20px;
+}
+
+.cta-marcas p{
+    max-width:700px;
+    margin:0 auto 35px;
+    color:variables.$color-gris;
+    font-size:1.1rem;
+}
+
+.cta-marcas .btn{
+    padding:15px 40px;
+    font-weight:600;
+    border-radius:12px;
+}

@@ -180,3 +180,90 @@
     color: variables.$color-blanco;
     opacity: .8;
 }
+
+/* ===========================
+        TABLET
+=========================== */
+
+@media (max-width:992px){
+
+.hero{
+    text-align:center;
+}
+
+.hero .row{
+    flex-direction:column-reverse;
+}
+
+.hero img{
+    max-width:380px;
+    margin-bottom:40px;
+}
+
+.hero h1{
+    font-size:2.5rem;
+}
+
+.hero p{
+    max-width:650px;
+    margin:auto;
+    margin-bottom:25px;
+}
+}
+
+/* ===========================
+        CELULAR
+=========================== */
+@media (max-width:768px){
+
+.hero{
+   padding:60px 20px;
+}
+
+.hero h1{
+    font-size:2rem;
+    line-height:1.3;
+}
+.hero p{
+    font-size:1rem;
+}
+.hero img{
+    max-width:100%;
+}
+.productos-destacados{
+    padding:60px 20px;
+}
+.productos-destacados h2{
+    font-size:2rem;
+}
+
+.productos-destacados .card{
+    margin-bottom:20px;
+}
+
+.beneficios{
+    padding:60px 20px;
+}
+
+.beneficios h2{
+    font-size:2rem;
+}
+
+.beneficios .col-md-4{
+    margin-bottom:40px;
+}
+
+.footer{
+    text-align:center;
+}
+.footer ul{
+    margin-bottom:30px;
+}
+.footer h3{
+    margin-bottom:20px;
+}
+}
+
+
+
+

@@ -1,0 +1,92 @@
+@use "./variables";
+@use "./extends";
+@use "./mixins";
+
+
+.catalogo{
+    background:variables.$color-fondo;
+    padding:100px 0;
+}
+
+.catalogo .card{
+    border:none;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.25);
+    transition:.3s;
+}
+
+.catalogo .card:hover{
+    transform:translateY(-10px);
+}
+
+.catalogo .card-img-top{
+    height:280px;
+    object-fit:contain;
+    padding:25px;
+}
+
+.catalogo .card-body{
+    display:flex;
+    flex-direction:column;
+}
+
+.catalogo .btn{
+    margin-top:auto;
+    width:100%;
+    border:none;
+    border-radius:12px;
+    background:variables.$color-principal;
+    padding:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.catalogo .btn:hover{
+    transform:scale(1.03);
+}
+
+.rating{
+    color:#ffc107;
+    font-size:1.1rem;
+    margin:10px 0;
+}
+
+.precio{
+    font-size:1.7rem;
+    font-weight:700;
+    color:variables.$color-principal;
+    margin:20px 0;
+}
+
+.catalogo h2{
+
+    color:variables.$color-blanco;
+
+}
+
+.catalogo p{
+
+    color:#cfcfcf;
+
+}
+
+.hero-suplementos{
+
+    background:variables.$color-fondo;
+
+    padding:100px 0 70px;
+
+    text-align:center;
+
+}
+.hero-suplementos h1{
+
+    color:variables.$color-blanco;
+
+}
+.hero-suplementos p{
+
+    color:variables.$color-gris;
+
+}
