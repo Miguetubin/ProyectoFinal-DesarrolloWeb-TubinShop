@@ -1,0 +1,30 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Whey Protein",
+    "precio": 169999,
+    "imagen": "../img/prote-starnutr-3kg-1.jfif",
+    "descripcion": "Proteína premium para aumentar tu masa muscular.",
+    "categoria": "proteinas",
+    "calificacion": 5
+  },
+  {
+    "id": 2,
+    "nombre": "Creatina ENA",
+    "precio": 59090,
+    "imagen": "../img/creatina-ena.jfif",
+    "descripcion": "Mejorá tu fuerza y acelerá tu recuperación.",
+    "categoria": "creatina",
+    "calificacion": 5
+  },
+  {
+    "id": 3,
+    "nombre": "Centrum Base",
+    "precio": 22900,
+    "imagen": "../img/centrum-base-60-carton.jpeg",
+    "descripcion": "Vitaminas y minerales para complementar tu alimentación.",
+    "categoria": "vitaminas",
+    "calificacion": 5
+  }
+]
